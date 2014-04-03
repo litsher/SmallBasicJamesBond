@@ -1,0 +1,13 @@
+Turtle.Speed = 10
+y = 1
+For I = 1 To 1000
+  TextWindow.WriteLine("dit is de waarde van I" + I)
+  Turtle.Move(70)
+  Turtle.Turn(-90)
+  Turtle.PenUp()
+  Turtle.Move(80)
+  Turtle.PenDown()
+  Turtle.Turn(30)
+  Turtle.Turn(-50)
+  y = y + 20
+EndFor
